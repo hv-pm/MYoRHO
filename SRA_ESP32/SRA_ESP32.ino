@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------------CABEÇALHO-----------------------------------------------------------------------------
 // Autor: Hygor Vinícius Pereira Martins (2022)
-//        ESP32_SRA ()
+//        ESP32_SRA (https://github.com/hv-pm/MYoRHO/tree/main/SRA_ESP32)
 //
 // Arduino IDE v1.8.1
 //
