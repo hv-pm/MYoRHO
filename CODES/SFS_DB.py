@@ -2,7 +2,7 @@
 """
 Created on Fri Jun 18 19:09:35 2021
 
-,author: Hygor Vinícius
+author: Hygor Vinícius
 """
 import numpy
 import pandas as pd
