@@ -1,0 +1,2 @@
+PLA ou PETG
+Imprimir no slicer em horizontal!
