@@ -13,140 +13,140 @@ clear
 % No conjunto de SMEs o rótulo de PC é adotado como 2.
 
 % Conjunto 1 (CONJ1)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R1.csv');
+readtable('C:\Users\...\V1_R1.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ1_PP, CONJ1_PC, CONJ1_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 2 (CONJ2)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R3.csv');
+readtable('C:\Users\...\V1_R3.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ2_PP, CONJ2_PC, CONJ2_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 3 (CONJ3)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R5.csv');
+readtable('C:\Users\...\V1_R5.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ3_PP, CONJ3_PC, CONJ3_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 4 (CONJ4)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R7.csv');
+readtable('C:\Users\...\V1_R7.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ4_PP, CONJ4_PC, CONJ4_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 5 (CONJ5)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R9.csv');
+readtable('C:\Users\...\V1_R9.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ5_PP, CONJ5_PC, CONJ5_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 6 (CONJ6)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R11.csv');
+readtable('C:\Users\...\V1_R11.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ6_PP, CONJ6_PC, CONJ6_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 7 (CONJ7)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R13.csv');
+readtable('C:\Users\...\V1_R13.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ7_PP, CONJ7_PC, CONJ7_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 8 (CONJ8)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R15.csv');
+readtable('C:\Users\...\V1_R15.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ8_PP, CONJ8_PC, CONJ8_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 9 (CONJ9)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R17.csv');
+readtable('C:\Users\...\V1_R17.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ9_PP, CONJ9_PC, CONJ9_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 10 (CONJ10)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R19.csv');
+readtable('C:\Users\...\V1_R19.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ10_PP, CONJ10_PC, CONJ10_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 1 para teste (CONJ_1t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R2.csv');
+readtable('C:\Users\...\V1_R2.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ1t_PP, CONJ1t_PC, CONJ1t_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 2 para teste (CONJ_2t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R4.csv');
+readtable('C:\Users\...\V1_R4.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ2t_PP, CONJ2t_PC, CONJ2t_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 3 para teste (CONJ_3t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R6.csv');
+readtable('C:\Users\...\V1_R6.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ3t_PP, CONJ3t_PC, CONJ3t_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 4 para teste (CONJ_4t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R8.csv');
+readtable('C:\Users\...\V1_R8.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ4t_PP, CONJ4t_PC, CONJ4t_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 5 para teste (CONJ_5t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R10.csv');
+readtable('C:\Users\...\V1_R10.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ5t_PP, CONJ5t_PC, CONJ5t_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 6 para teste (CONJ_6t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R12.csv');
+readtable('C:\Users\...\V1_R12.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ6t_PP, CONJ6t_PC, CONJ6t_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 7 para teste (CONJ_7t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R14.csv');
+readtable('C:\Users\...\V1_R14.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ7t_PP, CONJ7t_PC, CONJ7t_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 8 para teste (CONJ8t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R16.csv');
+readtable('C:\Users\...\V1_R16.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ8t_PP, CONJ8t_PC, CONJ8t_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 9 para teste (CONJ9t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R18.csv');
+readtable('C:\Users\...\V1_R18.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
 [CONJ9t_PP, CONJ9t_PC, CONJ9t_MR] = extcara(canal0,rotulo,1,2,0);
 
 % Conjunto 10 para teste (CONJ10t)
-readtable('C:\Users\hv-pm\Desktop\db\new\retif\V1_R20.csv');
+readtable('C:\Users\...\V1_R20.csv');
 rotulo=table2array(ans(:,2));
 canal0=table2array(ans(:,3));
 [canal0] = filtrarEMG(canal0);
