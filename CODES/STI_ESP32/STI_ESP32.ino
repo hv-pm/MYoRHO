@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------------CABEÇALHO-----------------------------------------------------------------------------
 // Autor: Hygor Vinícius Pereira Martins (2022)
-//        ESP32_STI (https://github.com/hv-pm/MYoRHO/tree/main/STI_ESP32)
+//        ESP32_STI (https://github.com/hv-pm/MYoRHO/blob/main/CODES/STI_ESP32/STI_ESP32.ino)
 //
 // Arduino IDE v1.8.1
 //
