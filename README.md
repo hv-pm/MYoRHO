@@ -52,6 +52,22 @@ For instance, the motors will only perform PG if `current state` is RH (i.e., th
 <img height="700" width="750" src="https://raw.githubusercontent.com/hv-pm/MYoRHO/main/docs/img/RAS_assembly.svg"></img><br>
 `DRV8833: dual h-bridge driver`; `Motors 1 & 2: N20 DC gearbox - 100 RPM rated 6 V`; `ESP32: DEVKIT V1`; `Motors 1 & 2: N20 DC gearbox - 100 RPM rated 6 V`.
 
+## When using MYoRHO in a scientific context, please cite this article:
+[![DOI:10.1016/j.bspc.2023.105014](http://img.shields.io/badge/DOI-10.1016/j.bspc.2023.105014-33cc00.svg)](https://doi.org/10.1016/j.bspc.2023.105014)
+
+```
+@article{MARTINS2023105014,
+  title = {Development of a robotic orthosis for fingers flexion motion by surface myoelectric control: Open source prototype},
+  journal = {Biomedical Signal Processing and Control},
+  volume = {85},
+  pages = {105014},
+  year = {2023},
+  issn = {1746-8094},
+  doi = {https://doi.org/10.1016/j.bspc.2023.105014},
+  url = {https://www.sciencedirect.com/science/article/pii/S1746809423004470},
+  author = {Hygor Vinícius Pereira Martins and João Antônio Palma Setti and Cayley Guimarães and Daniel Prado Campos},
+```
+
 ## License
 <div>
   <div>
