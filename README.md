@@ -68,6 +68,8 @@ For instance, the motors will only perform PG if `current state` is RH (i.e., th
   author = {Hygor Vinícius Pereira Martins and João Antônio Palma Setti and Cayley Guimarães and Daniel Prado Campos},
 ```
 
+Produto Tecnológico desenvolvido durante projeto de Mestrado "DESENVOLVIMENTO DE UMA ÓRTESE ROBÓTICA PARA O MOVIMENTO DE FLEXÃO DOS QUIRODÁCTILOS POR CONTROLE MIOELÉTRICO: PROTÓTIPO EM CÓDIGO ABERTO" do Programa de Pós-graduação em Engenharia Biomédica da UTFPR - Campus Curitiba, sob orientação do professor Dr. Daniel Prado de Campos. 
+
 ## License
 <div>
   <div>
